@@ -1,0 +1,23 @@
+sponsorLink FB
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcrizzyscocoontagaytay&tabs&width=350&height=190&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId=423717755434492" width="350" height="190" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+
+sponsorLink YT
+
+<iframe width="350" height="190" src="https://www.youtube.com/embed/yy5AjzWQ0i8?si=sh3PeK3NOPQbUAuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+echo "# mineshopee" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ryepineda/mineshopee.git
+git push -u origin main
+
+
+
+git remote add origin https://github.com/ryepineda/mineshopee.git
+git branch -M main
+git push -u origin main

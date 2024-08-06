@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide{
+  scrollbar-width: none;
+}
+
+.profile-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-container .hover-text {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.profile-container:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.login-text {
+  /* Styles specific to the login text */
+}
+
+.logout-text {
+  /* Styles specific to the logout text */
+}
+
+.hover-highlight:hover {
+  width: 100%;
+  background-color: #333; /* Light background color on hover */
+  color: #fff; /* Dark text color on hover */
+}
+
+
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it is above other content */
+  background: white; /* Background color to ensure it covers content below */
+  border-bottom: 1px solid #e0e0e0; /* Optional: Add a border for better visual separation */
+}
+
+body {
+  margin-top: 80px; /* Adjust based on the height of your Navbar */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+

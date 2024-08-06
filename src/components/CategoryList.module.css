@@ -1,0 +1,25 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .categoryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .categoryImage {
+    width: 100%;
+    height: 96px;
+    position: relative;
+  }
+  
+  .categoryName {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  
